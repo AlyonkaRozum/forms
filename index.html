@@ -7,43 +7,55 @@
  </head>
  <body>
   <div class="form">
-    <div class="info">
-      <div class="name">
-      <p>First name</p>
-      <p>Second name</p>
-      <p>Phone number</p>
-      <p>Email</p>
-      <p>City</p>
-      <p>Delivering</p>
-      <p>Payment</p>
-    </div>
-    <form>
-      <input class="text">
-      <input class="text">
-      <input class="text">
-      <input class="text">
+    <form action="" name="form" type="post" > 
+  <div>
+      <label for="FirstName">First Name
+      <input type="text" class="text" name="FirstName"></label>
+  </div>  
+  <div><label for="SecondName">Second Name
+      <input type="text" class="text" name="SecondName"></label>
+  </div> 
+  <div><label for="Phonenumber">Phone number
+      <input type="tel" class="number" value="+380" name="Phonenumber"></label>
+  </div>   
+  <div><label for="Email">Email
+      <input type="email" class="email" name="Email"></label>
+  </div> 
+  <div><label for="City">City
       <select>
         <option>Kyiv</option>
         <option>Kharkiv</option>
         <option>Lviv</option>
         <option>Kherson</option>
         <option>Sevastopol</option>
-      </select>
+    </select></label>
+  </div> 
+  <div><label for="Delivering">Delivering
       <select>
         <option>Nova Poshta</option>
         <option>Justin</option>
         <option>Ukrposhta</option>
-      </select>
+    </select></label>
+  </div>  
+  <div><label for="Department number">Department number
+      <input type="number" class="number" name="Department number"></label>
+  </div> 
+  <div><label for="Payment">Payment
       <select>
         <option>Card</option>
         <option>Cash</option>
-      </select>
-  </form> </div>
-    <div class="end">
-        <input class="checkbox"; type="checkbox" >
-      <button>Apply</button>
-    </div>
-      
+    </select></label>
+  </div>     
+  </form> 
+  <div class="end">
+    <input id="tick" class="checkbox"; type="checkbox" >
+  <button>Apply</button>
+  <a href="#" id="main" >
+  <div id="coupon">
+  <input id="tick" class="checkbox"; type="checkbox" >
+  <p>Coupon</p></div>
+  </div></a>
+  <a href="#main"></a>
   </div>
  </body>
 </html>
